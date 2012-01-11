@@ -1,0 +1,26 @@
+Revision history for Crashplan-Client
+
+0.01    2011-07-05 17:17
+        First version, released on an unsuspecting world.
+
+0.01_2  2011-07-05 17:37
+        Fix package (missing files for test)
+        Tag version as experimental
+
+0.02_0  2011-07-07 17:30
+        Fix typos
+        Start adding the new highlevel API 
+            users()
+            user($id)
+            orgs()
+            org($id)
+            computers()
+            computer($id)
+
+0.03_0  2011-07-07 18:00
+        Switch to Module::Build (thanks to Module::Build::Convert)
+        Fix test bug in t/30-computerusages.t
+        Extend the new API
+            add filter on users() orgs() computers()
+            add code for the setters
+        Add more tests to the t/10-network.t
